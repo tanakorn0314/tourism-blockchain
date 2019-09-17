@@ -25,7 +25,7 @@ const MainLayout = (props) => {
             <Header style={{ position: 'fixed', zIndex: 1, width: '100%', color: '#fff', display: 'flex', justifyContent: 'space-between' }}>
                 <div style={{ fontSize: 24, fontWeight: 600 }}>Blockchain</div>
                 <div style={{ cursor: 'pointer' }}>
-                    {props.address === '' ? unLogin : loggedin}
+                    {/* {props.address === '' ? unLogin : loggedin} */}
                 </div>
             </Header>
             <Content style={{ padding: '20px 50px', marginTop: 64, minHeight: 'calc(100vh - 128px)', background: '#fff' }}>

@@ -4,10 +4,6 @@ import HomeScreen from '../src/Screen/Home';
 
 const Page = (ComposedPage) => {
     const Screen = (props) => (<ComposedPage {...props} />);
-    Screen.getInitialProps = async (ctx) => {
-        const pageProps = ComposedPage.getInitialProps ? await ComposedPage.getInitialProps : {};
-        return pageProps;
-    }
     return Screen;
 };
 
